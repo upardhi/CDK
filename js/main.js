@@ -3,7 +3,6 @@
  */
 (function(){
 
-debugger;
     /**
      * Create mineSwipper class instnace and added the mineswipper
      */

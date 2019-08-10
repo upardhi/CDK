@@ -23,6 +23,30 @@
 
 
 * How to use?
+    * Add file in HTML.
+      ```
+        <script
+         src="js/app/class.js"></script>
+      <script
+         src="js/app/mineswipper.js"></script>
+
+      ```
+    * Add Container
+      ```
+        <div class="container main-container"  id="mineswipper">
+
+      </div>
+      ```
+    * Call class with added container.
+      ```
+
+        var mineSwipperGeneratorIns= new mineSwipper.MineSwipperGenerator({
+            /**
+                * Send only container here where you want to load miniswipper.
+                */
+            container:'mineswipper'
+        });
+        ```
 
 
 
