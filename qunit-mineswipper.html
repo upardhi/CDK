@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <div class="container main-container"  id="mineswipper">
+
+  </div>
+  <script>
+      
+        /**
+       * Global Namespace
+       * Why I created this namespace: Actually in realtime project this is very helpful to avode the conflicting 
+       * of global param with other lib.
+       */
+       var mineSwipper ={};
+  </script>
+  <script src="https://code.jquery.com/qunit/qunit-2.9.2.js"></script>
+  <script src="js/app/class.js"></script>
+  <script src="js/app/mineswipper.js"></script>
+  <script src="test/tester.js"></script>
+</body>
+</html>
